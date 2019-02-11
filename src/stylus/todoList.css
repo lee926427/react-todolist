@@ -1,0 +1,141 @@
+* {
+  font-family: Bungee Hairline !important;
+  font-weight: bold;
+  color: #333;
+  border-color: #333;
+  line-height: 1.5;
+  color: rgba(214,63,116,0.5);
+}
+body {
+  background: #fefefe;
+}
+.textCenter {
+  text-align: center;
+}
+.removeBtn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#container {
+  margin: auto;
+  text-align: center;
+  max-width: 700px;
+  margin: 60px auto 0 auto;
+  padding: 0px 20px;
+}
+#container h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+#container #form {
+  margin-bottom: 50px;
+}
+#container #info {
+  padding: 7px;
+  text-align: left;
+  color: rgba(51,51,51,0.5);
+}
+#container input {
+  background: transparent;
+  border: solid 1px;
+  padding: 4px 10px;
+  border-right: none;
+  width: 70%;
+  color: #333;
+  border-color: #d63f74;
+}
+#container input::-webkit-input-placeholder {
+  color: #d63f74;
+}
+#container input::-moz-input-placeholder {
+  color: #d63f74;
+}
+#container input::-moz-placeholder {
+  color: #d63f74;
+}
+#container input:focus,
+#container input:active {
+  outline: none;
+}
+#container button {
+  position: relative;
+  top: 2px;
+  border: solid 1px #d63f74;
+  padding: 5px 10px;
+  background: rgba(214,63,116,0.8);
+  cursor: pointer;
+  width: 15%;
+  min-width: 20px;
+  transition: all 100ms linear 80ms;
+  color: #fefefe;
+  line-height: 1;
+  font-size: 18px;
+}
+#container button:focus,
+#container button:active {
+  outline: none;
+}
+#container button:hover,
+#container button:active {
+  background: #d63f74;
+}
+#container button,
+#container input {
+  vertical-align: left;
+}
+#container #acu {
+  text-align: left;
+  padding: 7px;
+}
+#container #footer {
+  margin: 50px;
+  padding-top: 30px;
+  text-align: left;
+  border-top: dotted 2px #d63f74;
+}
+#container #footer p {
+  padding: 7px;
+  display: inline-block;
+  color: #333;
+  transition: all 100ms linear 80ms;
+}
+#container #footer p:hover {
+  color: #d63f74;
+}
+#container #footer p:hover:before,
+#container #footer p:hover:after {
+  color: #6d639a;
+}
+#container #footer p:before {
+  content: "<";
+}
+#container #footer p:after {
+  content: "/>";
+}
+#container .todos {
+  transition: all 100ms linear 100ms;
+  position: relative;
+  text-align: left;
+  margin: 30px auto;
+  padding: 7px;
+  padding-right: 28px;
+  border: solid 1px transparent;
+  color: #6d639a;
+}
+#container .todos:hover {
+  cursor: pointer;
+  border: solid 1px;
+}
+#container .todos:hover span {
+  visibility: visible;
+  color: inherit;
+}
+#container .todos span {
+  transition: all 100ms linear 100ms;
+  visibility: hidden;
+}
+#container .todos span:hover {
+  cursor: pointer;
+}
